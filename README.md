@@ -1,8 +1,16 @@
-# React + Vite
+## Joker
+Joker is a simple React application that displays random jokes fetched from a joke API. This project uses useState for state management and async functions to interact with the API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+Fetch random jokes from an external API.
+Display jokes on the page.
+Refresh jokes with a click of a button.
+Lightweight and responsive design.
+Technologies Used
+React: A JavaScript library for building user interfaces.
+useState: A React hook for managing component state.
+Async/Await: For handling asynchronous API calls.
+CSS: For basic styling.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+Once the application is running, you will see a random joke displayed on the page. To get a new joke, simply click the "Get Another Joke" button.
